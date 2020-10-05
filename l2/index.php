@@ -142,7 +142,13 @@ function mathOperation($arg1, $arg2, $operation)
     }
 };
 
-echo mathOperation(2, 5, "-");
+$arrOperation = array("-", "*", "+", "/");
+$val = $arrOperation[rand(0, count($arrOperation))];
+
+echo $val;
+echo "<br>";
+
+echo mathOperation(2, 5, $val);
 
 echo "<br>";
 echo "5. Посмотреть на встроенные функции PHP. Используя имеющийся HTML шаблон, вывести
@@ -153,6 +159,8 @@ echo "<br>";
 echo '6. *С помощью рекурсии организовать функцию возведения числа в степень. Формат: function
 power($val, $pow), где $val – заданное число, $pow – степень.';
 echo "<br>";
+
+
 
 echo "<br>";
 echo '7. *Написать функцию, которая вычисляет текущее время и возвращает его в формате с

@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d7261-8293-4854-9eec-a3e7e59b04c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/l2/2/8a8d6f538f284c689a5497cdd0082d66f8db6c35.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/Present.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/functions/recurse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/functions/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/if.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/poiskovik.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/switch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/src/ternar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/дз/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/дз/task5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l2/2/методичка.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="871d7261-8293-4854-9eec-a3e7e59b04c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +84,7 @@
       <workItem from="1601467875307" duration="6607000" />
       <workItem from="1601554918834" duration="13587000" />
       <workItem from="1601820213617" duration="2106000" />
-      <workItem from="1601881767163" duration="433000" />
+      <workItem from="1601881767163" duration="956000" />
     </task>
     <servers />
   </component>

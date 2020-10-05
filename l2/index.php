@@ -1,4 +1,5 @@
 <?php
+
 echo '1. Объявить две целочисленные переменные $a и $b и задать им произвольные начальные
 значения. Затем написать скрипт, который работает по следующему принципу:
 a. если $a и $b положительные, вывести их разность;
@@ -25,9 +26,10 @@ echo "<br>";
 echo '2. Присвоить переменной $а значение в промежутке [0..15]. С помощью оператора
 switch организовать вывод чисел от $a до 15.';
 echo "<br>";
+
 $a = rand(0, 15);
 
-switch ($a){
+switch ($a) {
     case 0:
         echo $a;
         $a++;
@@ -99,12 +101,48 @@ echo '3. Реализовать основные 4 арифметические 
 Обязательно использовать оператор return. ';
 echo "<br>";
 
+function func_difference($par1, $par2)
+{
+    return $par1 - $par2;
+}
+
+function func_composition($par1, $par2)
+{
+    return $par1 * $par2;
+}
+
+function func_sum($par1, $par2)
+{
+    return $par1 + $par2;
+}
+
+function func_private($par1, $par2)
+{
+    return $par1 / $par2;
+}
+
 echo "<br>";
 echo '4. Реализовать функцию с тремя параметрами: function mathOperation($arg1, $arg2, $operation), где
 $arg1, $arg2 – значения аргументов, $operation – строка с названием операции. В зависимости от
 переданного значения операции выполнить одну из арифметических операций (использовать
 функции из пункта 3) и вернуть полученное значение (использовать switch).';
 echo "<br>";
+
+function mathOperation($arg1, $arg2, $operation)
+{
+    switch ($operation) {
+        case $operation == "-";
+            return func_difference($arg1, $arg2);
+        case $operation == "*";
+            return func_composition($arg1, $arg2);
+        case $operation == "+";
+            return func_sum($arg1, $arg2);
+        case $operation == "/";
+            return func_private($arg1, $arg2);
+    }
+};
+
+echo mathOperation(2, 5, "-");
 
 echo "<br>";
 echo "5. Посмотреть на встроенные функции PHP. Используя имеющийся HTML шаблон, вывести

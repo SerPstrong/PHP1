@@ -98,8 +98,8 @@ echo "<br>";
 function func_change($x)
 {
     $aWords = explode(' ', $x);
-    foreach ($aWords as $str => $y){
-        $res .= $str."_".$y;
+    foreach ($aWords as $str => $y) {
+        $res .= $str . "_" . $y;
     }
     return $res;
 }
@@ -116,6 +116,8 @@ echo "<br>";
 
 //7. * Вывести с помощью цикла for числа от 0 до 9, НЕ используя тело цикла . То есть выглядеть должно так:
 //for (…) { // здесь пусто}
+
+for ($x = 0; $x <= 9; $x++){};
 
 echo "<br>";
 

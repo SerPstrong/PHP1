@@ -46,7 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../c19" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/WEB_TASK2/WEB_TASK" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,15 +57,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\php1\l2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\php1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\php1\l2" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+  <component name="RunManager" selected="PHPUnit.l2">
+    <configuration name="l2" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/l2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP" />
@@ -75,7 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHPUnit.l2" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +95,7 @@
       <workItem from="1601554918834" duration="13587000" />
       <workItem from="1601820213617" duration="2106000" />
       <workItem from="1601881767163" duration="16764000" />
+      <workItem from="1602149548342" duration="1318000" />
     </task>
     <servers />
   </component>
@@ -121,26 +126,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601898416948" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601891094550">
+    <state x="540" y="175" key="#Test_Frameworks" timestamp="1601917214768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601891094550" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601836116584">
+    <state x="540" y="175" key="#Test_Frameworks/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601917214768" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602150319282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601836116584" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601836116584">
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602150319282" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601924510785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601836116584" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601836116583">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601924510785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601924510785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601836116583" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601836116584">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601924510785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601924510785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601836116584" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601924510785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601924510785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601924510785" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601467930777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

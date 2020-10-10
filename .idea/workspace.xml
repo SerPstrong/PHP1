@@ -88,9 +88,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.l2" />
       <item itemvalue="PHP Script.Run script" />
       <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHPUnit.l2" />
     </list>
     <recent_temporary>
       <list>

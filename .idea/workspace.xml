@@ -20,12 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871d7261-8293-4854-9eec-a3e7e59b04c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/l3/1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l3/2/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l3/2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/l3/dz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/homework/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/lesson1.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/new.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/src/operators.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/Методичка.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l1/Презентация.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/material/35b393d623a3fa54efc211244fd1b33595b8698a.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/material/Методичка.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/material/Презентация от Сергея.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/arrays/assoc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/arrays/parseArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/arrays/testMas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/break.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/continue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/deposit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/testArrayServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3/src/while.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/material/Методичка.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/material/Моя презентация.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/material/Презентация.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/blocks/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/blocks/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/dz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/files/planeta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/files/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/p6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/planeta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/images/shapka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/parseURL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/scandir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4/src/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/l3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/functions/recurse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/functions/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/if.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/poiskovik.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/switch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/2/ternar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l1/minimalistica/task5.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +143,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="PHPUnit.l2" />
       <item itemvalue="PHP Script.Run script" />
       <item itemvalue="PHP Script.index.php" />
-      <item itemvalue="PHPUnit.l2" />
     </list>
     <recent_temporary>
       <list>

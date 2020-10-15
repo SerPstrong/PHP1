@@ -42,6 +42,14 @@ while ($data = mysqli_fetch_assoc($res)) {
 }
 ?>
 
+<?php
+$select2 = "SELECT * FROM photo";
+$res2 = mysqli_query($link, $select2);
+
+while ($data2 = mysqli_fetch_assoc($res2)) {
+    echo "qqqqqqqqq" . $data2['link_img'] . "<br>";
+}
+?>
 
 
 </body>

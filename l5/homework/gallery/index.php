@@ -34,39 +34,14 @@ include_once 'models/photo.php';
 </div>
 
 <?php
-$result = mysqli_query($link, "SELECT * FROM employee");
+$select = "SELECT * FROM employee";
+$res = mysqli_query($link, $select);
 
-//  if (mysqli_num_rows($result) > 0) {
-//      while($row = mysqli_fetch_assoc($result)) {
-//          $arr[] = $row;
-//      }
-//  } else {
-//      echo "0 results";
-//  }
-//
-//  for ($i = 0; $i < count($arr); $i++){
-//      echo $arr[$i];
-//  }
-
-$epms = array();
-while ($row = mysqli_fetch_assoc($result))
-    $epms[] = $row;
-?>
-
-<?php
-print_r($epms);
-?>
-
-<?php
-foreach ($epms as $value) {
-    echo $value;
+while ($data = mysqli_fetch_assoc($res)) {
+    echo "qqqqqqqqq" . $data['first_name'] . "<br>";
 }
 ?>
 
-
-<!--  --><?php //for ($i=0; $i < count($emps); $i++) : ?>
-<!--      <div>--><? //=$emps[$i] ?><!--</div>-->
-<!--  --><?php //endfor; ?>
 
 
 </body>

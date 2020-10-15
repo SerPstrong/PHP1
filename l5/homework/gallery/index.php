@@ -34,20 +34,30 @@ include_once 'models/photo.php';
 </div>
 
 <?php
-$select = "SELECT * FROM employee";
-$res = mysqli_query($link, $select);
+//$select = "SELECT * FROM employee";
+//$res = mysqli_query($link, $select);
+//
+//while ($data = mysqli_fetch_assoc($res)) {
+////    echo "qqqqqqqqq" . " " . $data['first_name'] . " " . $data['middle_name'] . " " . $data['last_name'] . "<br>";
+//    echo "qqqqqqqqq" . " " . $data['id_employee'] . "<br>";
+//}
+//?>
 
-while ($data = mysqli_fetch_assoc($res)) {
-    echo "qqqqqqqqq" . $data['first_name'] . "<br>";
+<?php
+$select2 = "SELECT * FROM img";
+$res2 = mysqli_query($link2, $select2);
+
+while ($data2 = mysqli_fetch_assoc($res2)) {
+    echo "wwwwww" . " " . $data2['link_img'] . "<br>";
 }
 ?>
 
 <?php
-$select2 = "SELECT * FROM photo";
-$res2 = mysqli_query($link, $select2);
+$select2 = "SELECT * FROM img";
+$res2 = mysqli_query($link2, $select2);
 
 while ($data2 = mysqli_fetch_assoc($res2)) {
-    echo "qqqqqqqqq" . $data2['link_img'] . "<br>";
+    echo "wwwwww" . " " . $data2['link_img'] . "<br>";
 }
 ?>
 

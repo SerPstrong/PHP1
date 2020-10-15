@@ -10,6 +10,13 @@ include_once 'models/photo.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<style>
+    .images_style {
+        width: 200px;
+    }
+</style>
+
 <header>
     <h1>ГАЛЕРЕЯ ФОТО</h1>
 </header>
@@ -46,20 +53,19 @@ include_once 'models/photo.php';
 <?php
 $select2 = "SELECT * FROM img";
 $res2 = mysqli_query($link2, $select2);
+//
+//while ($data2 = mysqli_fetch_assoc($res2)) {
+//    echo "wwwwww" . "<img src=" $PHOTO_SMALL . $images[$i] ">" .  $data2['link_img'] . "<br>";
+//}
+//?>
 
-while ($data2 = mysqli_fetch_assoc($res2)) {
-    echo "wwwwww" . " " . $data2['link_img'] . "<br>";
-}
-?>
-
-<?php
-$select2 = "SELECT * FROM img";
-$res2 = mysqli_query($link2, $select2);
-
-while ($data2 = mysqli_fetch_assoc($res2)) {
-    echo "wwwwww" . " " . $data2['link_img'] . "<br>";
-}
-?>
+<div class="images2">
+    <?php for ($i = 0; count($data2 = mysqli_fetch_assoc($res2)); $i++) : ?>
+        <a href="image.php?photo=<?= $data2[$i] ?>">
+            <img class="images_style" src="<?= $data2['link_img'] ?>">
+        </a>
+    <?php endfor; ?>
+</div>
 
 
 </body>

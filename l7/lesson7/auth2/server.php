@@ -1,7 +1,7 @@
 <?php
 session_start();
 $salt = "sldkfjslfj2302s,.ps";
-$connect = mysqli_connect("localhost","root","","lesson7");
+$connect = mysqli_connect("localhost","serpstrong","111","auth");
 $login = $_POST['login'] ? strip_tags($_POST['login']) : "";
 $pass = $_POST['pass'] ? strip_tags($_POST['pass']) : "";
 

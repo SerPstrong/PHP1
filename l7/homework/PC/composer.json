@@ -1,0 +1,16 @@
+{
+  "name": "vendor_name/lesson8",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "geras",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "v2.11.1"
+  }
+
+}
